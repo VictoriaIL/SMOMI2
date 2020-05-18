@@ -6,20 +6,20 @@
 
 Метрики точности
 
-![.](https://github.com/VictoriaIL/SMOMI2/blob/master/train/A_1_train.PNG)
-![.](https://github.com/VictoriaIL/SMOMI2/blob/master/test/A_1.PNG)
+![ff](https://github.com/VictoriaIL/SMOMI2/blob/master/train/A_1_train.PNG)
+![a](https://github.com/VictoriaIL/SMOMI2/blob/master/test/A_1.PNG)
 
 Функции потерь
 
-![.](https://github.com/VictoriaIL/SMOMI2/blob/master/train/L_1_train.PNG)
-![.](https://github.com/VictoriaIL/SMOMI2/blob/master/test/L_1.PNG)
+![q](https://github.com/VictoriaIL/SMOMI2/blob/master/train/L_1_train.PNG)
+![re](https://github.com/VictoriaIL/SMOMI2/blob/master/test/L_1.PNG)
 
 2. Сверточная сеть с пятью слоями Conv2D(filters=16, kernel_size=3)
 ~~~ lr == 2*10^-6 ~~~~
 
 Метрики точности 
-![.](https://github.com/VictoriaIL/SMOMI2/blob/master/train/A_2_train.PNG)
-![.](https://github.com/VictoriaIL/SMOMI2/blob/master/test/A_2.PNG)
+![rr](https://github.com/VictoriaIL/SMOMI2/blob/master/train/A_2_train.PNG)
+![w](https://github.com/VictoriaIL/SMOMI2/blob/master/test/A_2.PNG)
 
 Функции потерь
 
