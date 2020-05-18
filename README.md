@@ -2,7 +2,7 @@
 В второй лабораторной необходимо было менять различные параметры сети, такие как количество слоёв, скорость обучения, количество нейронов в слоях.
 
 1. Сверточная сеть с четырьмя слоями Conv2D(filters=14, kernel_size=3)
-~~~ lr == 2*10^-7 ~~~~
+``` lr == 2*10^-7 ```
 
 Метрики точности
 
@@ -15,7 +15,7 @@
 ![re](https://github.com/VictoriaIL/SMOMI2/blob/master/test/L_1.PNG)
 
 2. Сверточная сеть с пятью слоями Conv2D(filters=16, kernel_size=3)
-~~~ lr == 2*10^-6 ~~~~
+``` lr == 2*10^-6 ```
 
 Метрики точности 
 ![rr](https://github.com/VictoriaIL/SMOMI2/blob/master/train/A_2_train.PNG)
@@ -28,7 +28,7 @@
 
 3. Свёрточная сеть со слоями Conv2D(filters=4, kernel_size=3),Conv2D(filters=8, kernel_size=3), Conv2D(filters=12, kernel_size=3),
 Conv2D(filters=16, kernel_size=3)
-~~~ lr == 2*10^-6 ~~~~
+``` lr == 2*10^-6 ```
 
 Метрики точности
 
