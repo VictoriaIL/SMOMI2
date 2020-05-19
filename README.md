@@ -1,7 +1,7 @@
 # SMOMI2
 Во второй лабораторно необходимо было проследить, как меняются метрика точности и функция потерь в зависимости от изменеия различных параметров сети: количество слоёв, скорость обучения, количество нейронов в слоях.
 
-1.Свёрточная сеть со тремя слоями слоями Conv2D(filters=4, kernel_size=3)
+1.Свёрточная сеть с тремя слоями слоями Conv2D(filters=4, kernel_size=3)
 ``` lr == 2*10^-4 ```
 
 Метрики точности
@@ -14,9 +14,7 @@
 ![.](https://github.com/VictoriaIL/SMOMI2/blob/master/train/L_4_train.PNG)
 ![.](https://github.com/VictoriaIL/SMOMI2/blob/master/test/L_4.PNG) 
  
-2. Сверточная сеть с четырьмя слоями Conv2D(filters=14, kernel_size=3)
-``` lr == 2*10^-7 ```
-Сверточная сеть с двумя слоями Conv2D(filters=32, kernel_size=3)
+2. Сверточная сеть с двумя слоями Conv2D(filters=32, kernel_size=3)
 ``` lr == 2*10^-7 ```
 
 Метрики точности
@@ -29,9 +27,7 @@
 ![q](https://github.com/VictoriaIL/SMOMI2/blob/master/train/L_5_train.PNG)
 ![re](https://github.com/VictoriaIL/SMOMI2/blob/master/test/L_5.PNG)
 
-3. Сверточная сеть с пятью слоями Conv2D(filters=16, kernel_size=3)
-``` lr == 2*10^-6 ```
-Сверточная сеть с четырьмя слоями Conv2D(filters=14, kernel_size=3)
+3. Сверточная сеть с четырьмя слоями Conv2D(filters=14, kernel_size=3)
 ``` lr == 2*10^-7 ```
 
 Метрики точности 
