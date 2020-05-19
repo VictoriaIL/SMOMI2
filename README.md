@@ -27,7 +27,7 @@
 ![q](https://github.com/VictoriaIL/SMOMI2/blob/master/train/L_5_train.PNG)
 ![re](https://github.com/VictoriaIL/SMOMI2/blob/master/test/L_5.PNG)
 
-3. Сверточная сеть с четырьмя слоями Conv2D(filters=14, kernel_size=3)
+3. Сверточная сеть с четырьмя слоями Conv2D(filters=16, kernel_size=3)
 ``` lr == 2*10^-7 ```
 
 Метрики точности 
