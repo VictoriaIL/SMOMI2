@@ -19,25 +19,25 @@
 
 Метрики точности
 
-![ff](https://github.com/VictoriaIL/SMOMI2/blob/master/train/A_1_train.PNG)
-![a](https://github.com/VictoriaIL/SMOMI2/blob/master/test/A_1.PNG)
+![ff](https://github.com/VictoriaIL/SMOMI2/blob/master/train/A_5_train.PNG)
+![a](https://github.com/VictoriaIL/SMOMI2/blob/master/test/A_5.PNG)
 
 Функции потерь
 
-![q](https://github.com/VictoriaIL/SMOMI2/blob/master/train/L_1_train.PNG)
-![re](https://github.com/VictoriaIL/SMOMI2/blob/master/test/L_1.PNG)
+![q](https://github.com/VictoriaIL/SMOMI2/blob/master/train/L_5_train.PNG)
+![re](https://github.com/VictoriaIL/SMOMI2/blob/master/test/L_5.PNG)
 
 2. Сверточная сеть с пятью слоями Conv2D(filters=16, kernel_size=3)
 ``` lr == 2*10^-6 ```
 
 Метрики точности 
-![rr](https://github.com/VictoriaIL/SMOMI2/blob/master/train/A_2_train.PNG)
-![w](https://github.com/VictoriaIL/SMOMI2/blob/master/test/A_2.PNG)
+![rr](https://github.com/VictoriaIL/SMOMI2/blob/master/train/A_1_train.PNG)
+![w](https://github.com/VictoriaIL/SMOMI2/blob/master/test/A_1.PNG)
 
 Функции потерь
 
-![.](https://github.com/VictoriaIL/SMOMI2/blob/master/train/L_2_train.PNG)
-![.](https://github.com/VictoriaIL/SMOMI2/blob/master/test/L_2.PNG)
+![.](https://github.com/VictoriaIL/SMOMI2/blob/master/train/L_1_train.PNG)
+![.](https://github.com/VictoriaIL/SMOMI2/blob/master/test/L_1.PNG)
  
 4. Свёрточная сеть со слоями Conv2D(filters=4, kernel_size=3),Conv2D(filters=8, kernel_size=3), Conv2D(filters=12, kernel_size=3),
 Conv2D(filters=16, kernel_size=3)
@@ -45,13 +45,13 @@ Conv2D(filters=16, kernel_size=3)
 
 Метрики точности
 
-![.](https://github.com/VictoriaIL/SMOMI2/blob/master/train/A_3_train.PNG)
-![.](https://github.com/VictoriaIL/SMOMI2/blob/master/test/A_3.PNG)
+![.](https://github.com/VictoriaIL/SMOMI2/blob/master/train/A_2_train.PNG)
+![.](https://github.com/VictoriaIL/SMOMI2/blob/master/test/A_2.PNG)
 
 Функции потерь
 
-![.](https://github.com/VictoriaIL/SMOMI2/blob/master/train/L_3_train.PNG)
-![.](https://github.com/VictoriaIL/SMOMI2/blob/master/test/L_3.PNG)
+![.](https://github.com/VictoriaIL/SMOMI2/blob/master/train/L_2_train.PNG)
+![.](https://github.com/VictoriaIL/SMOMI2/blob/master/test/L_2.PNG)
 
 
 
