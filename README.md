@@ -16,6 +16,8 @@
  
 2. Сверточная сеть с четырьмя слоями Conv2D(filters=14, kernel_size=3)
 ``` lr == 2*10^-7 ```
+Сверточная сеть с двумя слоями Conv2D(filters=32, kernel_size=3)
+``` lr == 2*10^-7 ```
 
 Метрики точности
 
@@ -27,8 +29,10 @@
 ![q](https://github.com/VictoriaIL/SMOMI2/blob/master/train/L_5_train.PNG)
 ![re](https://github.com/VictoriaIL/SMOMI2/blob/master/test/L_5.PNG)
 
-2. Сверточная сеть с пятью слоями Conv2D(filters=16, kernel_size=3)
+3. Сверточная сеть с пятью слоями Conv2D(filters=16, kernel_size=3)
 ``` lr == 2*10^-6 ```
+Сверточная сеть с четырьмя слоями Conv2D(filters=14, kernel_size=3)
+``` lr == 2*10^-7 ```
 
 Метрики точности 
 ![rr](https://github.com/VictoriaIL/SMOMI2/blob/master/train/A_1_train.PNG)
@@ -39,8 +43,7 @@
 ![.](https://github.com/VictoriaIL/SMOMI2/blob/master/train/L_1_train.PNG)
 ![.](https://github.com/VictoriaIL/SMOMI2/blob/master/test/L_1.PNG)
  
-4. Свёрточная сеть со слоями Conv2D(filters=4, kernel_size=3),Conv2D(filters=8, kernel_size=3), Conv2D(filters=12, kernel_size=3),
-Conv2D(filters=16, kernel_size=3)
+4. Сверточная сеть с пятью слоями Conv2D(filters=16, kernel_size=3)
 ``` lr == 2*10^-6 ```
 
 Метрики точности
