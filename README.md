@@ -8,6 +8,11 @@
 
 ![.](https://github.com/VictoriaIL/SMOMI2/blob/master/train/A_4_train.PNG)
 ![.](https://github.com/VictoriaIL/SMOMI2/blob/master/test/A_4.PNG) 
+
+Функции потерь
+
+![.](https://github.com/VictoriaIL/SMOMI2/blob/master/train/L_4_train.PNG)
+![.](https://github.com/VictoriaIL/SMOMI2/blob/master/test/L_4.PNG) 
  
 2. Сверточная сеть с четырьмя слоями Conv2D(filters=14, kernel_size=3)
 ``` lr == 2*10^-7 ```
